@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - Entry point
- * Decscription: 'Check for number if it is positive or negative'
- * Return: always o
+ * Description: 'This program will assign a random number to the variable n'
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -16,11 +16,11 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	if (n == 0)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
-	else
+	else 
 	{
 		printf("%d is negative\n", n);
 	}
